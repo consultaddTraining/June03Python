@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+    <title>My First Website</title>
+    <link rel="stylesheet" href="{% static "css/mycss.css" %}"/>
+</head>
+<body>
+    <h1>This is my First Template Tagging Customized Webpage</h1>
+    <input type="password" placeholder="Please enter your name">
+    <img src = "{% static "images/python.png" %}">
+{{ template_var }} <!-- Template Variable | Jinja Variable | String will be considered   -->
+</body>
+</html>
